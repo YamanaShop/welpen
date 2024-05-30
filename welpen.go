@@ -1,6 +1,8 @@
 package welpen
 
 import (
+	"fmt"
+
 	"github.com/YamanaShop/hunde"
 )
 
@@ -18,4 +20,8 @@ func BigBark() string {
 
 func BigBarks() string {
 	return hunde.WhenGrownUp(Barks())
+}
+
+func From11() string {
+	fmt.Println("I am from version 1.1.0")
 }
