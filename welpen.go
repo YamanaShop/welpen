@@ -11,15 +11,3 @@ func Bark() string {
 func Barks() string {
 	return "Woof! Woof! Woof !"
 }
-
-func BigBark() string {
-	return hunde.WhenGrownUp(Bark())
-}
-
-func BigBarks() string {
-	return hunde.WhenGrownUp(Barks())
-}
-
-func From13() string {
-	return "I am from version 1.3.0"
-}
