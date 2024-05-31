@@ -20,6 +20,6 @@ func BigBarks() string {
 	return hunde.WhenGrownUp(Barks())
 }
 
-func From12() string {
-	return "I am from version 1.2.0"
+func From13() string {
+	return "I am from version 1.3.0"
 }
